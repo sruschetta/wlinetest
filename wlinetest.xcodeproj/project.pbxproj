@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		7B1EB2B01E8914AB00676AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2AF1E8914AB00676AE2 /* main.m */; };
 		7B1EB2B31E8914AB00676AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2B21E8914AB00676AE2 /* AppDelegate.m */; };
-		7B1EB2B61E8914AB00676AE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2B51E8914AB00676AE2 /* ViewController.m */; };
 		7B1EB2B91E8914AB00676AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1EB2B71E8914AB00676AE2 /* Main.storyboard */; };
 		7B1EB2BB1E8914AB00676AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1EB2BA1E8914AB00676AE2 /* Assets.xcassets */; };
 		7B1EB2BE1E8914AB00676AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1EB2BC1E8914AB00676AE2 /* LaunchScreen.storyboard */; };
+		7B1EB2CC1E8914EB00676AE2 /* WLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2CB1E8914EB00676AE2 /* WLViewController.m */; };
+		7B1EB2D11E89151800676AE2 /* WLUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2D01E89151800676AE2 /* WLUsersViewController.m */; };
+		7B1EB2D51E8915F000676AE2 /* WLAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2D41E8915F000676AE2 /* WLAPIManager.m */; };
+		7B1EB2D91E891C6D00676AE2 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2D81E891C6D00676AE2 /* User.m */; };
+		7B1EB2DC1E8927BE00676AE2 /* WLUsersViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2DB1E8927BE00676AE2 /* WLUsersViewControllerCell.m */; };
+		7B1EB2E11E8949BB00676AE2 /* WLUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EB2E01E8949BB00676AE2 /* WLUserViewController.m */; };
+		7BA9E09E1E894F4D0023145B /* WLUserViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9E09D1E894F4D0023145B /* WLUserViewControllerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,24 @@
 		7B1EB2AF1E8914AB00676AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B1EB2B11E8914AB00676AE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B1EB2B21E8914AB00676AE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B1EB2B41E8914AB00676AE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B1EB2B51E8914AB00676AE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B1EB2B81E8914AB00676AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B1EB2BA1E8914AB00676AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B1EB2BD1E8914AB00676AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1EB2BF1E8914AB00676AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1EB2CA1E8914EB00676AE2 /* WLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLViewController.h; sourceTree = "<group>"; };
+		7B1EB2CB1E8914EB00676AE2 /* WLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLViewController.m; sourceTree = "<group>"; };
+		7B1EB2CF1E89151800676AE2 /* WLUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLUsersViewController.h; sourceTree = "<group>"; };
+		7B1EB2D01E89151800676AE2 /* WLUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLUsersViewController.m; sourceTree = "<group>"; };
+		7B1EB2D31E8915F000676AE2 /* WLAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAPIManager.h; sourceTree = "<group>"; };
+		7B1EB2D41E8915F000676AE2 /* WLAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAPIManager.m; sourceTree = "<group>"; };
+		7B1EB2D71E891C6D00676AE2 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7B1EB2D81E891C6D00676AE2 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		7B1EB2DA1E8927BE00676AE2 /* WLUsersViewControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLUsersViewControllerCell.h; sourceTree = "<group>"; };
+		7B1EB2DB1E8927BE00676AE2 /* WLUsersViewControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLUsersViewControllerCell.m; sourceTree = "<group>"; };
+		7B1EB2DF1E8949BB00676AE2 /* WLUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLUserViewController.h; sourceTree = "<group>"; };
+		7B1EB2E01E8949BB00676AE2 /* WLUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLUserViewController.m; sourceTree = "<group>"; };
+		7BA9E09C1E894F4D0023145B /* WLUserViewControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLUserViewControllerCell.h; sourceTree = "<group>"; };
+		7BA9E09D1E894F4D0023145B /* WLUserViewControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLUserViewControllerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,9 @@
 		7B1EB2AD1E8914AA00676AE2 /* wlinetest */ = {
 			isa = PBXGroup;
 			children = (
-				7B1EB2B11E8914AB00676AE2 /* AppDelegate.h */,
-				7B1EB2B21E8914AB00676AE2 /* AppDelegate.m */,
-				7B1EB2B41E8914AB00676AE2 /* ViewController.h */,
-				7B1EB2B51E8914AB00676AE2 /* ViewController.m */,
-				7B1EB2B71E8914AB00676AE2 /* Main.storyboard */,
-				7B1EB2BA1E8914AB00676AE2 /* Assets.xcassets */,
-				7B1EB2BC1E8914AB00676AE2 /* LaunchScreen.storyboard */,
+				7B1EB2C71E8914CE00676AE2 /* Classes */,
+				7B1EB2C51E8914B800676AE2 /* App Delegate */,
+				7B1EB2C61E8914C900676AE2 /* Assets */,
 				7B1EB2BF1E8914AB00676AE2 /* Info.plist */,
 				7B1EB2AE1E8914AA00676AE2 /* Supporting Files */,
 			);
@@ -77,6 +91,118 @@
 				7B1EB2AF1E8914AB00676AE2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B1EB2C51E8914B800676AE2 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2B11E8914AB00676AE2 /* AppDelegate.h */,
+				7B1EB2B21E8914AB00676AE2 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		7B1EB2C61E8914C900676AE2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2B71E8914AB00676AE2 /* Main.storyboard */,
+				7B1EB2BA1E8914AB00676AE2 /* Assets.xcassets */,
+				7B1EB2BC1E8914AB00676AE2 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		7B1EB2C71E8914CE00676AE2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2D61E891C5A00676AE2 /* Entities */,
+				7B1EB2C91E8914DA00676AE2 /* Services */,
+				7B1EB2C81E8914D300676AE2 /* View Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7B1EB2C81E8914D300676AE2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2DD1E8947EE00676AE2 /* UserViewController */,
+				7B1EB2CE1E8914FA00676AE2 /* UsersViewController */,
+				7B1EB2CD1E8914EF00676AE2 /* Parents */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7B1EB2C91E8914DA00676AE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2D21E8915D700676AE2 /* APIManager */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		7B1EB2CD1E8914EF00676AE2 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2CA1E8914EB00676AE2 /* WLViewController.h */,
+				7B1EB2CB1E8914EB00676AE2 /* WLViewController.m */,
+			);
+			name = Parents;
+			sourceTree = "<group>";
+		};
+		7B1EB2CE1E8914FA00676AE2 /* UsersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2CF1E89151800676AE2 /* WLUsersViewController.h */,
+				7B1EB2D01E89151800676AE2 /* WLUsersViewController.m */,
+				7BADCDA61E8A46BB00EDE05A /* Cell */,
+			);
+			name = UsersViewController;
+			sourceTree = "<group>";
+		};
+		7B1EB2D21E8915D700676AE2 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2D31E8915F000676AE2 /* WLAPIManager.h */,
+				7B1EB2D41E8915F000676AE2 /* WLAPIManager.m */,
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		7B1EB2D61E891C5A00676AE2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2D71E891C6D00676AE2 /* User.h */,
+				7B1EB2D81E891C6D00676AE2 /* User.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		7B1EB2DD1E8947EE00676AE2 /* UserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2DF1E8949BB00676AE2 /* WLUserViewController.h */,
+				7B1EB2E01E8949BB00676AE2 /* WLUserViewController.m */,
+				7BADCDA71E8A46C100EDE05A /* Cell */,
+			);
+			name = UserViewController;
+			sourceTree = "<group>";
+		};
+		7BADCDA61E8A46BB00EDE05A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7B1EB2DA1E8927BE00676AE2 /* WLUsersViewControllerCell.h */,
+				7B1EB2DB1E8927BE00676AE2 /* WLUsersViewControllerCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		7BADCDA71E8A46C100EDE05A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7BA9E09C1E894F4D0023145B /* WLUserViewControllerCell.h */,
+				7BA9E09D1E894F4D0023145B /* WLUserViewControllerCell.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1EB2B61E8914AB00676AE2 /* ViewController.m in Sources */,
+				7B1EB2CC1E8914EB00676AE2 /* WLViewController.m in Sources */,
+				7B1EB2D11E89151800676AE2 /* WLUsersViewController.m in Sources */,
+				7B1EB2E11E8949BB00676AE2 /* WLUserViewController.m in Sources */,
+				7B1EB2D91E891C6D00676AE2 /* User.m in Sources */,
+				7B1EB2D51E8915F000676AE2 /* WLAPIManager.m in Sources */,
+				7B1EB2DC1E8927BE00676AE2 /* WLUsersViewControllerCell.m in Sources */,
+				7BA9E09E1E894F4D0023145B /* WLUserViewControllerCell.m in Sources */,
 				7B1EB2B31E8914AB00676AE2 /* AppDelegate.m in Sources */,
 				7B1EB2B01E8914AB00676AE2 /* main.m in Sources */,
 			);
@@ -275,6 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XY2HZZM4MN;
 				INFOPLIST_FILE = wlinetest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wline.wlinetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XY2HZZM4MN;
 				INFOPLIST_FILE = wlinetest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wline.wlinetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +446,7 @@
 				7B1EB2C41E8914AB00676AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

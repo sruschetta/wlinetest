@@ -1,29 +1,25 @@
 //
-//  ViewController.m
+//  WLViewController.m
 //  wlinetest
 //
 //  Created by Stefano on 27/03/17.
 //  Copyright © 2017 wline. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WLViewController.h"
 
-@interface ViewController ()
+@interface WLViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WLViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
 
 @end

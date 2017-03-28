@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WLViewController.h
 //  wlinetest
 //
 //  Created by Stefano on 27/03/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "WLAPIManager.h"
 
+@interface WLViewController : UIViewController
 
 @end
-
